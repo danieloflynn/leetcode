@@ -20,7 +20,7 @@ public:
                 newSum = nums[i] + nums[front] + nums[back] - target;
                 if (newSum == 0)
                 {
-                    return 0;
+                    return target;
                 }
                 if (abs(newSum) < abs(sum))
                 {
